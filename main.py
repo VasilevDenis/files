@@ -49,5 +49,6 @@ def file_union(files):
         write_file.write(all_lines)
 
 
-print(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2))
-file_union(['files/file_1.txt', 'files/file_2.txt', 'files/file_3.txt'])
+if __name__ == "__main__":
+    print(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2))
+    file_union(['files/file_1.txt', 'files/file_2.txt', 'files/file_3.txt'])
